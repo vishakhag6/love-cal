@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Love Cal",
+    "description": "Do you know what is the compatibility of you and your partner? Download and install Lova Cal App and check compatibility on the basis of names.", 
+    "slug": "react-love-cal",
+    "privacy": "public",
+    "sdkVersion": "35.0.0",
+    "platforms": [
+      "ios", 
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appicon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.lovecal.lovecal",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.lovecal.lovecal"
+    }
+  }
+}
